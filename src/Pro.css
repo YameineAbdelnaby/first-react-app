@@ -1,0 +1,85 @@
+.parant {
+
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+.products-list {
+
+width: 93%;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+
+
+}
+.yyyy {
+    width: 32%;
+    margin: 5px;
+    padding: 3px;
+    flex-wrap: wrap;
+
+
+}
+.yyyy:hover {
+    background-color: rgb(43, 124, 247);
+    border-radius: 15px;
+    color: white;
+    rotate: 2deg;
+    scale: 1.01;
+    cursor: pointer;
+    
+    
+}
+
+
+.img {
+border-radius: 13px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+
+
+}
+
+h2 {
+    color: rgb(17, 15, 15);
+    text-align: center;
+}
+@media (max-width:600px) {
+    .products-list { 
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+}
+.but {
+    
+    display: flex;
+     background-color: rgb(219, 214, 214);
+    color: black;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s ease;
+    text-align: center;
+    margin-left:206px;
+    width: 74px;
+    height: 30px;
+    
+}
+
+.but:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.2s ease;
+    background-color: rgb(8, 8, 8);
+    color:rgb(223, 212, 212);
+
+}
